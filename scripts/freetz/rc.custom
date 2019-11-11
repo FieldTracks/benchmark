@@ -1,0 +1,11 @@
+#!/bin/sh
+
+LOCAL_IP=""
+REMOTE_IP=""
+REMOTE_TUNNEL_ID=""
+
+/sbin/ifconfig dsl:1 "${LOCAL_IP}" netmask 255.255.255.255 up
+/sbin/l2tp add tunnel tunnel_id 1 peer_tunnel_id "${REMOTE_TUNNEL_ID}" encap ip local "${LOCAL_IP}" remote "${REMOTE_IP}"
+/sbin/l2tp add session tunnel_id 1 session_id 1 peer_session_id 1
+/sbin/ip link set l2tpeth0 mtu 1500 up
+/usr/sbin/brctl addif lan l2tpeth0
