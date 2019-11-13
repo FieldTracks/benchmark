@@ -1,0 +1,11 @@
+Address=172.23.23.197 # IP of the remote endpoint
+Cipher=none
+# Public key of the remote endpoint
+-----BEGIN RSA PUBLIC KEY-----
+MIIBCgKCAQEA9PBHgNUwZbokDRpc1GicpHoMSnLXV/cgjP0OK0E7wzaozoI2pNez
+3vOtUZwR/wZIphbwxS21WWbgsqceLcJtsCKp1DM+bUZ1nOw1t8Ve1E+ob4aThn9C
+ZStTe8UnLktPLoNREc2Rx6rBF9fRI8TWHb+dASaADRSSmQ2LJiP0wQ0FJlR4zb5v
+WdyScx3Wr5b+Bl+z7OPUadiXsyjBBsI0ijycIf7e14YJx3Ni5fMdYh01d0NHMT9h
+dyBZS5UMcrZw1eXSlaa5MiQbUFcpY33cSzUmOHq6+kWkzP4SuhY4t4PSE4n1p8kM
+vZkj+1hWthob8svXwYcOjYXVB9tlP65soQIDAQAB
+-----END RSA PUBLIC KEY-----

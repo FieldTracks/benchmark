@@ -1,0 +1,11 @@
+Address=172.23.22.56 # IP of the local device
+Cipher=none
+# Public key of the local device
+-----BEGIN RSA PUBLIC KEY-----
+MIIBCgKCAQEAnzC70FhYpd/RaIZFstqMUHwZ7EZhVKNpXRAKJw0SY+hE3yFOvN4V
+aqtX+cmHi1koBxJDDCWrE4lZby9FvHRrCjNgcvrO7sgN4GbbV32S3V4KxAh2hIsn
+lba+b3RGetDi0w8cyKNI4FSSyBNvs+sR4psATUTcdigqX+h/vx0GLan+M6sxavA+
+A7z2+f4E5kB/heDius8wgIJ/mNDjk3SkEntiI/tJ0TKEDq6ZNpextwOvOWl2NoTj
+o8iFXF6tZud5zeUgzJOe8h3tSc1IS+/CzBzxy9zSeE+CEtB2aGWyQPSMNCYoSbSK
+Bv5PKaz97REEr4o28DcWMKES+mraBSN7lQIDAQAB
+-----END RSA PUBLIC KEY-----
